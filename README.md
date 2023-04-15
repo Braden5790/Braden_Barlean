@@ -1,2 +1,2 @@
 # Braden Barlean Portfolio
-I adapted this template from ndoherty-xyz for a portfolio resume. 
+I adapted this website portfolio template from ndoherty-xyz.

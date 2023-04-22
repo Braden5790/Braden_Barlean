@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/icon.jpg" />
+     <title>Braden's Portfolio</title>
+    <meta name="description" content="Braden's Project: ARISE.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+
+          (this should be the same across all pages)
+         -->
+        <span class="nav-title">Braden Barlean</span>
+        <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+        <a class="button" href="mailto:bradenbarlean@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">ARISE: Accelerated, Realistic, Intelligent Simulation for Surgical Education</div>
+        <div class="body-text">Through collaboration with local and international stakeholders ARISE was developed as a cutting-edge surgical education platform to build surgical capacity in LMICs.</div>
+        <image class="project-header-image" src="../assets/images/desktop.jpeg">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">ARISE is a nonprofit organization that aims to improve surgical outcomes in low- and middle-income countries (LMICs) by expanding access to laparoscopic surgery. Laparoscopic surgery is a minimally invasive surgical technique that uses small incisions and a camera to perform procedures, which has been shown to have many benefits over traditional open surgery, including reduced pain, shorter hospital stays, and faster recovery times.</div>
+          <div class="body-text">However, laparoscopic surgery is often unavailable in LMICs due to a lack of trained surgeons and inadequate infrastructure. The lack of access to safe surgical care in LMICs is a significant global health issue, resulting in millions of preventable deaths each year. ARISE addresses this issue with a suite of surgical training products called LaparoscopiX. In which scalable simulations and an expert trained AI mentor are utilized to train early surgeons at various levels of competency, from fundamental skills acquisition to expert-level training. The platform provides real-time feedback to trainees through the AI mentor, trained by collaborating with leading surgical experts to establish objective standards for the algorithm. The training platform was developed in collaboration with local and international stakeholders, including leading surgical experts in the US, Canada, and Kenya, to ensure that it meets the highest standards of surgical education.</div>
+          <div class="body-text">ARISE works closely with local and international stakeholders to develop and implement the educational platform, building local capacity and increasing access to laparoscopic surgery in LMICs. Their long-term vision is to expand their educational content to other surgical disciplines and support staff to further improve surgical outcomes. ARISE's long-term vision is to expand its educational content to other surgical disciplines and support staff, with the ultimate goal of improving surgical outcomes for all.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">A Proven Training Platform</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/code.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/sketchbook.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/camera.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/bradenbarlean/">
+        <image src="./assets/icons/linkedin2.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.youtube.com/@bradenbarlean">
+        <image src="./assets/icons/youtube2.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="https://github.com/Braden5790">
+        <image src="./assets/icons/github2.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>

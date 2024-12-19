@@ -36,7 +36,7 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
-  background-color: #add8e6; /* Light blue */
+  /* background-color: #add8e6; /* Light blue */
 }
 
 #portfolio-header-image-container {
